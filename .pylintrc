@@ -5,6 +5,9 @@ disable=
       C0115, # Missing-class-docstring
       C0116, # Missing-function-docstring
       C0305,
+      W3101,
+      C0304,
+      C0303,
 
 # A comma-separated list of package or module names from where C extensions may
 # be loaded. Extensions are loading into the active Python interpreter and may
