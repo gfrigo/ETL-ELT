@@ -7,6 +7,7 @@ from src.errors.transform_error import TransformError
 def test_transform():
     transform_raw_data = TransformRawData()
     transformed_data_contract = transform_raw_data.transform(extract_contract_mock)
+    print(transformed_data_contract)
 
     assert isinstance(transformed_data_contract, TransformContract)
     assert "first_name" in transformed_data_contract.load_content[0]
