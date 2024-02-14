@@ -1,3 +1,4 @@
+# pylint: disable-all
 from .http_requester import HttpRequester
 
 def test_request_from_page(requests_mock):
