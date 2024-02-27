@@ -8,9 +8,10 @@
 - [Conclusões](#conclusões)
 
 ## Contexto:
-Este projeto tem como objetivo a extração de dados de um site HTML sobre artistas. Após a extração, foi feita a transformação das variáveis em questão para carregamento limpo em uma base de dados MySQL utilizando DBeaver.
+Este projeto tem como objetivo a extração, transformação e carregamento de dados de um website HTML informativo sobre artistas.
 
-## Dados
+
+## Dados Extraídos
 
 | Nome da Variável            | Descrição                                                       |
 |-----------------------------|-----------------------------------------------------------------|
