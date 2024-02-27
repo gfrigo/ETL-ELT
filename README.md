@@ -10,7 +10,7 @@
 ## Contexto:
 Este projeto tem como objetivo a extração, transformação e carregamento de dados de um website HTML informativo sobre artistas.
 
-!(./website.png)
+![Website](./website.png)
 
 
 ## Dados Extraídos
