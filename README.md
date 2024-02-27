@@ -10,7 +10,6 @@
 - [Carregamento](#carregamento)
 - [Como Usar](#como-usar)
 - [Dependências](#dependências)
-- [Conclusões](#conclusões)
 
 ## Objetivo:
 * Este projeto tem como objetivo a extração, transformação e carregamento de dados de um website HTML informativo sobre artistas.
