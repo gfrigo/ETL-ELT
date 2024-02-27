@@ -1,7 +1,8 @@
 # Extract, Transform and Load (ETL)
 
 ## Índice
-- [Contexto](#contexto)
+- [Objetivo](#objetivo)
+- [Website](#website)
 - [Dados](#dados)
 - [Drivers](#drivers)
 - [Extração](#extração)
@@ -11,10 +12,13 @@
 - [Dependências](#dependências)
 - [Conclusões](#conclusões)
 
-## Contexto:
+## Objetivo:
 * Este projeto tem como objetivo a extração, transformação e carregamento de dados de um website HTML informativo sobre artistas.
-* Abaixo etá uma foto da interface do site. O quadrante selecionado (azul) representa a parte do website destinada à extração.
+* Diagrama do projeto:
+![ETL](./etl.png)
 
+## Website
+* Abaixo está uma foto da interface do site. O quadrante selecionado (azul) representa a parte do website destinada à extração.
 ![Website](./website.png)
 
 
@@ -57,7 +61,16 @@ python main_pipeline.py
 ```
 
 ## Dependências
-Você pode conferir todas as depências no arquivo "requirements.txt" ou basta instalar com o código abaixo:
+* Crie uma venv no Windows: 
+```bash
+python -m venv venv 
+```
+* Acesse a pasta da venv:
+```bash
+venv\Scripts\activate
+```
+
+* Você pode conferir todas as depências no arquivo "requirements.txt" ou basta instalar com os código abaixo:
 
 ```bash
 pip install pandas
