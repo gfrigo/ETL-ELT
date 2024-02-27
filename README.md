@@ -66,11 +66,23 @@ pip install pandas
 pip install numpy
 ```
 ```bash
-pip install matplotlib
+pip install beautifulsoup4
 ```
 ```bash
-pip install seaborn
+pip install mysql-connector-python
 ```
 ```bash
-pip install plotly
+pip install pylint
+```
+```bash
+pip install pytest
+```
+```bash
+pip install PyYAML
+```
+```bash
+pip install requests
+```
+```bash
+pip install requests
 ```
