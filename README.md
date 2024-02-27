@@ -44,13 +44,17 @@
 * Em "Infra/database_repository" é feito o script para query de criação do database;
 * A etapa de carregamento une os itens anteriores para criação do database e inserção de dados com a query criada.
 
+* Resultado:
+![Load](./load.PNG)
 
 ## Como Usar
 
-* Instale em sua máquina o Anaconda Navigator. Link: https://www.anaconda.com/download ;
-* Abra o Anaconda e Instale o Jupyter Notebook na versão 7.0.6,
-* Baixe os arquivos deste repositórios nomeados como: CODIGO_INDIA_CIENCIA_DADOS.ipynb, conjunto_de_dados_de_funcionarios.csv, admission_dataset.csv ;
-* Coloque-os juntos na mesma pasta e abra o notebook que contém o código.
+* Instale em sua máquina as dependências no tópico "Dependências";
+* Crie um localhost no DBeaver ou em outro SGBD com MySQL (caso seja o DBeaver instale o XAMPP para criar um servidor local);
+* Abra o terminal e a acesse o arquivo "`main_pipeline.py`" e digite:
+```bash
+python main_pipeline.py
+```
 
 ## Dependências
 Você pode conferir todas as depências no arquivo "requirements.txt" ou basta instalar com o código abaixo:
@@ -70,10 +74,3 @@ pip install seaborn
 ```bash
 pip install plotly
 ```
-
-## Conclusões
-Acesse os links abaixo e confira as conclusões obtidas:
-
-* Machine Learning: https://www.canva.com/design/DAF05y4x2DE/33mN0cQOjQE9lDz-nJG9bA/edit?utm_content=DAF05y4x2DE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton ;
-* Visualização de dados: https://sway.office.com/h8R6yu7pg6OLRTvE?ref=Link ;
-* Visualização de dados: https://sway.office.com/Pt82OMEPCizwLHb9?ref=Link&loc=mysways .
